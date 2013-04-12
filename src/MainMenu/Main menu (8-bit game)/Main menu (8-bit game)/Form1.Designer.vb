@@ -101,6 +101,10 @@ Partial Class Form1
         Me.PictureBox1.TabIndex = 7
         Me.PictureBox1.TabStop = False
         '
+        'MenuAmin
+        '
+        Me.MenuAmin.Interval = 10
+        '
         'Label1
         '
         Me.Label1.AutoSize = True
