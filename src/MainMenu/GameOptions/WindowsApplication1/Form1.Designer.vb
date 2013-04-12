@@ -42,6 +42,8 @@ Partial Class Form1
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Button11 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -104,9 +106,9 @@ Partial Class Form1
         Me.Label6.AutoSize = True
         Me.Label6.Location = New System.Drawing.Point(50, 215)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(37, 13)
+        Me.Label6.Size = New System.Drawing.Size(67, 13)
         Me.Label6.TabIndex = 6
-        Me.Label6.Text = "Action"
+        Me.Label6.Text = "Action Menu"
         '
         'Label7
         '
@@ -122,9 +124,9 @@ Partial Class Form1
         Me.Label8.AutoSize = True
         Me.Label8.Location = New System.Drawing.Point(50, 287)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(65, 13)
+        Me.Label8.Size = New System.Drawing.Size(70, 13)
         Me.Label8.TabIndex = 8
-        Me.Label8.Text = "Magic menu"
+        Me.Label8.Text = "Arcana menu"
         '
         'Label9
         '
@@ -152,7 +154,7 @@ Partial Class Form1
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(105, 34)
         Me.Button2.TabIndex = 20
-        Me.Button2.Text = "Button2"
+        Me.Button2.Text = "w"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
@@ -163,7 +165,7 @@ Partial Class Form1
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(105, 36)
         Me.Button3.TabIndex = 21
-        Me.Button3.Text = "Button3"
+        Me.Button3.Text = "s"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
@@ -174,7 +176,7 @@ Partial Class Form1
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(105, 36)
         Me.Button4.TabIndex = 22
-        Me.Button4.Text = "Button4"
+        Me.Button4.Text = "a"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button5
@@ -185,7 +187,7 @@ Partial Class Form1
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(105, 36)
         Me.Button5.TabIndex = 23
-        Me.Button5.Text = "Button5"
+        Me.Button5.Text = "d"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
@@ -196,7 +198,7 @@ Partial Class Form1
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(105, 36)
         Me.Button6.TabIndex = 24
-        Me.Button6.Text = "Button6"
+        Me.Button6.Text = "e"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'Button7
@@ -207,7 +209,7 @@ Partial Class Form1
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(105, 36)
         Me.Button7.TabIndex = 25
-        Me.Button7.Text = "Button7"
+        Me.Button7.Text = "Middle mouse button"
         Me.Button7.UseVisualStyleBackColor = True
         '
         'Button8
@@ -218,7 +220,7 @@ Partial Class Form1
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(105, 36)
         Me.Button8.TabIndex = 26
-        Me.Button8.Text = "Button8"
+        Me.Button8.Text = "v"
         Me.Button8.UseVisualStyleBackColor = True
         '
         'Button9
@@ -229,7 +231,7 @@ Partial Class Form1
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(105, 36)
         Me.Button9.TabIndex = 27
-        Me.Button9.Text = "Button9"
+        Me.Button9.Text = "r"
         Me.Button9.UseVisualStyleBackColor = True
         '
         'Button10
@@ -240,14 +242,36 @@ Partial Class Form1
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(105, 36)
         Me.Button10.TabIndex = 28
-        Me.Button10.Text = "Button10"
+        Me.Button10.Text = "i"
         Me.Button10.UseVisualStyleBackColor = True
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(53, 403)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(59, 13)
+        Me.Label11.TabIndex = 29
+        Me.Label11.Text = "Main menu"
+        '
+        'Button11
+        '
+        Me.Button11.FlatAppearance.BorderSize = 3
+        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button11.Location = New System.Drawing.Point(269, 380)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(105, 36)
+        Me.Button11.TabIndex = 30
+        Me.Button11.Text = "ESC"
+        Me.Button11.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(728, 493)
+        Me.Controls.Add(Me.Button11)
+        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Button8)
@@ -294,5 +318,7 @@ Partial Class Form1
     Friend WithEvents Button8 As System.Windows.Forms.Button
     Friend WithEvents Button9 As System.Windows.Forms.Button
     Friend WithEvents Button10 As System.Windows.Forms.Button
+    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents Button11 As System.Windows.Forms.Button
 
 End Class
